@@ -1,0 +1,53 @@
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+
+.color .blue   {background: #6698cb;}
+.btn-gradient {
+	margin: 5px;
+}
+
+body {
+}
+
+#footer {
+	height: 4em;
+}
+
+.video {
+	padding: 15px;
+	width: 90%;
+	border: 3px;
+	border-color: black;
+	box-shadow: 3px;
+}
+
+.input_radio {
+	//TODO
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.ratevideo {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+#studyintro #outro {
+	margin: 15px;
+}
+
+.error {
+	color: #FF0000;
+}
+.error-hidden {
+	color: #FF0000;
+	display: none;
+}
