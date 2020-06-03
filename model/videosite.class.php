@@ -6,7 +6,7 @@ require_once 'userstudy.class.php';
 class VideoSite {
 	
 	//TODO static?
-	public const VIDEO_PATH = "/videos";
+	public const VIDEO_PATH = "videos";
 	private $sitenum = -1;
 	private $video_id = "";
 	private $video_title = "";
