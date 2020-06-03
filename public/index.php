@@ -31,7 +31,7 @@ if (!isset($_SESSION['userstudy'])) {
 	<title>Startseite BA Benutzerstudie</title>
 </head>
 <body>
-	<h1><?=STUDYNAME?><</h1>
+	<h1><?=STUDYNAME?></h1>
 	<h3><?=STUDYAUTHOR?></h3>
 
 	<div id="studyintro">
