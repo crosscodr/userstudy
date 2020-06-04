@@ -4,6 +4,9 @@ require_once '../config.inc.php';
 // remove all session variables
 session_unset();
 session_destroy();
+
+// Unset the cookie on the client-side.
+setcookie("PHPSESSID", "", 1); // Force the cookie to expire.
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +19,7 @@ session_destroy();
 	<title>BA Benutzerstudie - Ende</title>
 </head>
 <body>
-	<h1><?=STUDYNAME?><</h1>
+	<h1><?=STUDYNAME?></h1>
 	<h3><?=STUDYAUTHOR?></h3>
 
 	<div id="outro">
